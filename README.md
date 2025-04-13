@@ -54,6 +54,8 @@ The model analyzes various transaction attributes including:
 
 ## Requirements
 - Python 3.x
+- ### Data Installation
+[Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data) 
 - Required libraries:
   - scikit-learn: For machine learning implementation
   - pandas: For data manipulation and analysis
@@ -104,15 +106,3 @@ The Decision Tree Classifier is evaluated on:
 - F1-Score: Balanced measure of precision and recall
 - ROC-AUC: Model's ability to distinguish between classes
 
-## Future Improvements
-- Implementation of ensemble methods (Random Forest, XGBoost)
-- Real-time transaction scoring
-- Integration with alert systems
-- Addition of more advanced feature engineering
-- Development of an API interface
-
-## Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/) 
